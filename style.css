@@ -1,0 +1,99 @@
+*{
+    margin: 10px;
+    padding: 0;
+    background-color: antiquewhite;
+  }
+  body{
+    align-items: center;
+  }
+  h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .image{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    border: solid;
+  }
+  p{
+    font-size: 20px;
+  }
+  table{
+    text-align: left;
+  }
+  thead{
+    text-align: center;
+  }
+  tr{
+    font-size: 18px;
+  }
+  th{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  li{
+    font-size: 20px;
+  }
+  .button{
+    border-radius: 10px;
+    font-size: 24px;
+    width: 90px;
+  }
+  
+  .content {
+    padding: 100px;
+    padding-top: 10px;
+  }
+  .one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  .content .one p {
+    padding: 40px;
+    padding-top: 10px;
+    font-size: 24px;
+  }
+  
+  .two{
+      margin-top: 40px;
+  }
+  .two h2{
+      font-size: 30px;
+  }
+  .two ol li{
+      margin-top: 20px;
+      font-size: 20px;
+  }
+  .form{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      
+  }
+  .form-item{
+      display: flex;
+      gap: 80px;
+  }
+  .form-item p{
+      font-size: 20px;
+      margin: 0;
+  }
+  button{
+      width: 80px;
+      align-self: center;
+  }
